@@ -15,7 +15,7 @@
 </div>
 
 > [!NOTE]
-> This work is still in progress and we will release the models, and datasets soon.
+> If you want a more efficient Rubric-based RL framework (Rubrics as Reward), please use [verl-rubric](https://github.com/DoYangTan/verl-rubric).
 
 ## 🧭 Contents
 
@@ -32,7 +32,7 @@
 
 - `[Jan 17, 2026]` Released the high-quality rubric dataset **RubricHub**. [Dataset](https://huggingface.co/datasets/sojuL/RubricHub_v1), [Paper](https://arxiv.org/abs/2601.08430).
 - `[Jan 16, 2026]` Implemented a more efficient RewardLoop-based asynchronous reward computation to reduce waiting on reward scoring in the **verl-rubric** repository. [Repo](https://github.com/DoYangTan/verl-rubric).
-- `[Dec 17, 2025]` Added `health_bench/scaleai_batch_reward_fn.py`, moving from per-criterion grading to rubric-level batch grading (all criteria are scored in a single grader call); see [Online Rubrics Elicitation from Pairwise Comparisons](https://arxiv.org/abs/2510.07284). Recommended grader: [`gpt-oss-120b`](https://huggingface.co/openai/gpt-oss-120b).
+- `[Dec 17, 2025]` Added `health_bench/scaleai_batch_reward_fn.py`, moving from per-criterion grading to rubric-level batch grading (all criteria are scored in a single grader call); see [Online Rubrics Elicitation from Pairwise Comparisons](https://arxiv.org/abs/2510.07284). Recommended grader: [gpt-oss-120b](https://huggingface.co/openai/gpt-oss-120b).
 - `[Oct 15, 2025]` 🔧 Added support for reward functions with hybrid rule-based verification!
 - `[Sep 26, 2025]` 💻 Released RuscaRL code!
 - `[Aug 23, 2025]` 📄 Released RuscaRL paper on arXiv!
