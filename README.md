@@ -10,7 +10,7 @@
 
 <div align="center">
 <a href='https://arxiv.org/abs/2508.16949'><img src='https://img.shields.io/badge/Paper-Arxiv-red.svg?style=for-the-badge&logo=arxiv&logoColor=white'></a> 
-<a href='https://huggingface.co/papers/2508.16949'><img src='https://img.shields.io/badge/Paper-Hugging_Face-yellow.svg?style=for-the-badge&logo=huggingface&logoColor=%23FFD21E'></a>
+<a href='https://huggingface.co/datasets/sojuL/RubricHub_v1'><img src='https://img.shields.io/badge/Dataset-Hugging_Face-yellow.svg?style=for-the-badge&logo=huggingface&logoColor=%23FFD21E'></a>
 <a href='LICENSE'><img src='https://img.shields.io/badge/License-Apache_2.0-blue.svg?style=for-the-badge'></a>
 </div>
 
@@ -30,6 +30,8 @@
 
 <h2 id="updates">🔥 Updates</h2>
 
+- `[Jan 17, 2026]` Released the high-quality rubric dataset **RubricHub**. [Dataset](https://huggingface.co/datasets/sojuL/RubricHub_v1), [Paper](https://arxiv.org/abs/2601.08430).
+- `[Jan 16, 2026]` Implemented a more efficient RewardLoop-based asynchronous reward computation to reduce waiting on reward scoring in the **verl-rubric** repository. [Repo](https://github.com/DoYangTan/verl-rubric).
 - `[Dec 17, 2025]` Added `health_bench/scaleai_batch_reward_fn.py`, moving from per-criterion grading to rubric-level batch grading (all criteria are scored in a single grader call); see [Online Rubrics Elicitation from Pairwise Comparisons](https://arxiv.org/abs/2510.07284). Recommended grader: [`gpt-oss-120b`](https://huggingface.co/openai/gpt-oss-120b).
 - `[Oct 15, 2025]` 🔧 Added support for reward functions with hybrid rule-based verification!
 - `[Sep 26, 2025]` 💻 Released RuscaRL code!
